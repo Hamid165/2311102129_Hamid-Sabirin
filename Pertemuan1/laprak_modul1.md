@@ -43,3 +43,5 @@ Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran
 
 ## Referensi
 [1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
+
+https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/%E3%82%89%E3%81%A3%E3%81%A1%E3%80%82.jpeg
