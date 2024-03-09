@@ -266,53 +266,53 @@ using namespace std;
 // struct mahasiswa
 struct Mahasiswa
 {
-    char nama_mahasiswa[50];
-    char address[100];
-    int umur_mahasiswa;
+    char nama_mahasiswa_129[50];
+    char alamat_mhsw_129[100];
+    int umur_mahasiswa_129;
 };
 // class karyawan
 class Karyawan
 {
 public:
-    char nama[50];
-    char address[100];
-    int umur_karyawan;
+    char nama_krywn_129[50];
+    char alamat_kryw_129[100];
+    int umur_karyawan_129;
 };
 
 int main()
 {
     // Input data mahasiswa ke struct
-    struct Mahasiswa mhs1;
+    struct Mahasiswa mhs_129;
     cout << "Masukkan Nama Mahasiswa : ";
-    cin.getline(mhs1.nama_mahasiswa, 50);
+    cin.getline(mhs_129.nama_mahasiswa_129, 50);
     cout << "Masukkan Alamat Mahasiswa : ";
-    cin.getline(mhs1.address, 100);
+    cin.getline(mhs_129.alamat_mhsw_129, 100);
     cout << "Masukkan Umur Mahasiswa : ";
-    cin >> mhs1.umur_mahasiswa;
+    cin >> mhs_129.umur_mahasiswa_129;
     cout << endl;
 
     // menampilkan data mahasiswa
     cout << "Data mahasiswa 1 " << endl;
-    cout << "Nama: " << mhs1.nama_mahasiswa << endl;
-    cout << "Alamat: " << mhs1.address << endl;
-    cout << "Umur: " << mhs1.umur_mahasiswa << endl;
+    cout << "Nama: " << mhs_129.nama_mahasiswa_129 << endl;
+    cout << "Alamat: " << mhs_129.alamat_mhsw_129 << endl;
+    cout << "Umur: " << mhs_129.umur_mahasiswa_129 << endl;
     cout << endl;
 
 
     // input data class karyawan
-    class Karyawan kry1;
-    cin.ignore();
+    class Karyawan krywn_129;
+    cin.ignore(); 
     cout << "Masukkan Nama Karyawan: ";
-    cin.getline(kry1.nama, 50);
+    cin.getline(krywn_129.nama_krywn_129, 50);
     cout << "Masukkan Alamat Karyawan : ";
-    cin.getline(kry1.address, 100);
+    cin.getline(krywn_129.alamat_kryw_129, 100);
     cout << "Masukkan Umur Karyawan : ";
-    cin >> kry1.umur_karyawan;
-
+    cin >> krywn_129.umur_karyawan_129;
+    cout << endl;
     // menampilkan data inputan karyawan
-    cout << "Nama Karyawan :" << kry1.nama << endl;
-    cout << "Alamat Karyawan :" << kry1.address << endl;
-    cout << "Umur Karyawan :" << kry1.umur_karyawan << endl;
+    cout << "Nama Karyawan :" << krywn_129.nama_krywn_129 << endl;
+    cout << "Alamat Karyawan :" << krywn_129.alamat_kryw_129 << endl;
+    cout << "Umur Karyawan :" << krywn_129.umur_karyawan_129 << endl;
 
     return 0;
 }
