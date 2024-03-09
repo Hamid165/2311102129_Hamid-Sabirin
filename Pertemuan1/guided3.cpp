@@ -3,14 +3,15 @@
 using namespace std;
 int main()
 {
-    // Deklarasi dan inisialisasi array
+    // Deklarasi dan inisialisasi array satu per satu
     int nilai[5];
     nilai[0] = 23;
     nilai[1] = 50;
     nilai[2] = 34;
     nilai[3] = 78;
     nilai[4] = 90;
-    // Mencetak array dengan tab
+
+    // Mencetak array sesuai urutan index
     cout << "Isi array pertama : " << nilai[0] << endl;
     cout << "Isi array kedua : " << nilai[1] << endl;
     cout << "Isi array ketiga : " << nilai[2] << endl;
