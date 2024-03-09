@@ -244,7 +244,7 @@ int main()
 
 ### Output :
 
-![unguided_output 1](output1.png)
+![unguided_output 1](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/cffb907635b78b07e7463ffcb95ff63b7131cff6/Pertemuan1/assets/output1.png)
 
 => Penjelasan Program
 
@@ -320,7 +320,7 @@ int main()
 
 ### Output :
 
-![unguided_output_2](output2.png)
+![unguided_output_2](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/cffb907635b78b07e7463ffcb95ff63b7131cff6/Pertemuan1/assets/output2.png)
 
 => Penjelasan program
 
@@ -384,7 +384,7 @@ int main()
 
 ### Output :
 
-![unguided_output 3](output3.png)
+![unguided_output 3](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/cffb907635b78b07e7463ffcb95ff63b7131cff6/Pertemuan1/assets/output3.png)
 
 => Penjelasan program
 Pada kode di atas kita membuat sebuah array dan map pada array kita memiliki 5 data berupa bilangan nama orang dan kita bisa mencetaknya dengan cara memanggil urutan index array yang kita ingginkan dan pada map kita memiliki data nama tempat yang dimana terdapat sebuah key yaitu berupa angka integer dan value berupa string nama tempatnya dan kita bisa mencetaknya dengan cara memanggil key dari value.
