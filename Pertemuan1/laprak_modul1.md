@@ -80,9 +80,9 @@ int main()
 }
 ```
 
-=> Kode di atas adalah kode untuk melakukan operasi operator bilangan dengan menggunakan inputan berupa tipe data primitif yang terdiri dari integer, float, boolean, dan char pada kode di atas kita hanya menggunakan tipe data char untuk menginputkan operator dan float untuk inputan angka maupun hasil outputnya
+=> Kode di atas adalah kode untuk melakukan operasi operator bilangan dengan menggunakan inputan berupa tipe data primitif yang terdiri dari integer, float, boolean, dan char pada kode di atas kita hanya menggunakan tipe data char untuk menginputkan operator dan float untuk inputan angka maupun hasil outputnya. pada program di atas akan mengeksekusi sesuai simbol operator dengan menjumlahkan mengurangkan mengalikan dan membagi nilai angka pertama dengan angka ke dua kecuali pada pembagian dimana nilainya tidak boleh ada yang bernilai nol
 
-### 1. [Tipe data Abstrak]
+### 2. [Tipe data Abstrak]
 
 ```C++
 #include <stdio.h>
@@ -123,9 +123,9 @@ int main()
 
 ```
 
-=> Kode di atas merupakan tipe data abstrak yaitu struct, struct di gunakan untuk menamping tipe data yang berbeda beda menjadi satu di dalam struct. pada kode di atas kita memiliki dua data mahasiswa yang sudah ada dan kita melakukan perintah printf untuk mencetak data mahasiswa di atas agar terlihat pada output.
+=> Kode di atas merupakan tipe data abstrak yaitu struct, struct di gunakan untuk menampung tipe data yang berbeda beda menjadi satu di dalam struct. pada kode di atas kita memiliki dua data mahasiswa dan kita memanggil nama struct tersebut untuk menambahkan data mahasiswa kedalam struct dan kita melakukan perintah printf untuk mencetak data mahasiswa dengan cara nama variable diikuti nama tipe data dari mahasiswanya.
 
-### 1. [Tipe Data Koleksi]
+### 2. [Tipe Data Koleksi]
 
 ```C++
 #include <iostream>
@@ -151,7 +151,7 @@ int main()
 }
 ```
 
-=> Kode di atas adalah sebuah tipe data koleksi yaitu array pada kode tersebut kita membuat sebuah array yang berisikan lima data yang berisikan sebuah angka, dan kita akan mencetak array tersebut berdasarkan index menggunakan cout dan kita melakukan dengan cara memanggil nama arraynya dan urutan index pada array tersebut.
+=> Kode di atas adalah sebuah tipe data koleksi yaitu array pada kode tersebut kita membuat sebuah array yang berisikan lima data yang berisikan sebuah angka, dan kita akan mencetak array tersebut berdasarkan index menggunakan cout dan kita melakukan dengan cara memanggil nama array nya dan urutan index pada array tersebut.
 
 ## Unguided
 
@@ -250,6 +250,9 @@ int main()
 
 Pada kode di atas kita menggunakan fungsi tambah, kurang, kali, dan bagi untuk melakukan operasi matematika dengan menggunakan tipe data primitif kita menginputkan nilai a dan b kemudian memilih operator dengan tipe data char yaitu ankga, ketika kita memilih logika yang ingin dijalankan dengan menggunakan tipe data primitif char untuk nilainya kita menggunakan fungsi switch untuk memilih operator logika yang ingin dijalankan ketika kita memilih penjumlahan maka code akan mengeksekusi fungsi tambah dan mencetak hasil dari penjumlahan tersebut dan begitu juga dengan operator logika lainya.
 
+#### Full code Screenshot:
+![Full ss code unguided 1](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/Pertemuan1/assets/fullcode_unguided1.png)
+
 => Kesimpulan dari tipe data primitif
 
 tipe data primitif dapat digunakan untuk mengelompokkan beberapa data dalam sebuah variabel yang lebih besar
@@ -301,7 +304,7 @@ int main()
 
     // input data class karyawan
     class Karyawan krywn_129;
-    cin.ignore(); 
+    cin.ignore();
     cout << "Masukkan Nama Karyawan: ";
     cin.getline(krywn_129.nama_krywn_129, 50);
     cout << "Masukkan Alamat Karyawan : ";
@@ -325,7 +328,8 @@ int main()
 => Penjelasan program
 
 pada program di atas kita menggunakan sebuah tipe data abstrak yaitu struct dan class yang dimana struct dan kelas itu untuk menampung sebuah tipe data yang berbeda beda dan di tampung oleh kelas maupun struct. setelah di tampung oleh struct dan class kita bisa mencetak data yang sudah ada ataupun yang di inputkan dan di tampung pada struct dan class dengan cara memanggil nama struct atau nama class terlebuh dahulu.
-
+#### Full code Screenshot:
+![Full ss code unguided 1](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/Pertemuan1/assets/fullcode_unguided2.png)
 => Penjelasan Struct
 
 Struct adalah tipe data compound yang digunakan untuk mengelompokkan beberapa variabel dalam sebuah variabel
@@ -389,6 +393,8 @@ int main()
 => Penjelasan program
 Pada kode di atas kita membuat sebuah array dan map pada array kita memiliki 5 data berupa bilangan nama orang dan kita bisa mencetaknya dengan cara memanggil urutan index array yang kita ingginkan dan pada map kita memiliki data nama tempat yang dimana terdapat sebuah key yaitu berupa angka integer dan value berupa string nama tempatnya dan kita bisa mencetaknya dengan cara memanggil key dari value.
 
+#### Full code Screenshot:
+![Full ss code unguided 1](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/Pertemuan1/assets/fullcode_unguided3.png)
 => Penjelasan map
 
 Map adalah tipe data compound yang digunakan untuk mengelompokkan beberapa variabel dalam sebuah variabel yang lebih besar
