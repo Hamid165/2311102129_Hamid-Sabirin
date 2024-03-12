@@ -26,6 +26,7 @@ pada tipe data terdapat 3 jenis yaitu :
    Tipe data Koleksi adalah tipe data yang terdiri dari beberapa elemen dengan tipe data yang sama, dan tiap elemen memiliki index unik yang dapat diakses secara langsung.
 
    - Array = tipe data yang terdiri dari elemen-elemen yang memiliki tipe data yang sama dan diberi nama tertentu
+   - Vector = berisi sebuah koleksi elemen dengan tipe data yang sama, tiap elemen memiliki index yang unique dan dapat diakses secara langsung, sering digunakan untuk menyimpan data-data yang memiliki urutan dan dapat dibuka secara acak.
    - Map = berisi pasangan key-value
 
 ## Guided
