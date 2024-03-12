@@ -1,6 +1,6 @@
 # <h1 align="center">Laporan Praktikum Modul Tipe Data</h1>
 
-<p align="center">Hamid Sabirin</p>
+<h2 align="center">Hamid Sabirin</h2>
 
 ## Dasar Teori
 
@@ -10,6 +10,7 @@ pada tipe data terdapat 3 jenis yaitu :
 
 1. Primitif
    Tipe data bawaan bahasa pemrograman dan bisa langsung digunakan programmer untuk mendeklarasikan variabel contohnya adalah
+
    - Int = bilangan bulat
    - Float = bilangan koma atau desimal
    - Bool = true or false
@@ -22,7 +23,7 @@ pada tipe data terdapat 3 jenis yaitu :
    - Class = konsep struktur data yang diperluas
 
 3. Koleksi
-   Tipe data Koleksi adalah tipe data yang terdiri dari beberapa elemen dengan tipe data yang sama, dan tiap elemen memiliki index unik yang dapat diakses secara langsung. contoh tipe data koleksi adalah array dan map.
+   Tipe data Koleksi adalah tipe data yang terdiri dari beberapa elemen dengan tipe data yang sama, dan tiap elemen memiliki index unik yang dapat diakses secara langsung.
 
    - Array = tipe data yang terdiri dari elemen-elemen yang memiliki tipe data yang sama dan diberi nama tertentu
    - Map = berisi pasangan key-value
@@ -251,6 +252,7 @@ int main()
 Pada kode di atas kita menggunakan fungsi tambah, kurang, kali, dan bagi untuk melakukan operasi matematika dengan menggunakan tipe data primitif kita menginputkan nilai a dan b kemudian memilih operator dengan tipe data char yaitu ankga, ketika kita memilih logika yang ingin dijalankan dengan menggunakan tipe data primitif char untuk nilainya kita menggunakan fungsi switch untuk memilih operator logika yang ingin dijalankan ketika kita memilih penjumlahan maka code akan mengeksekusi fungsi tambah dan mencetak hasil dari penjumlahan tersebut dan begitu juga dengan operator logika lainya.
 
 #### Full code Screenshot:
+
 ![Full ss code unguided 1](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/Pertemuan1/assets/fullcode_unguided1.png)
 
 => Kesimpulan dari tipe data primitif
@@ -328,7 +330,9 @@ int main()
 => Penjelasan program
 
 pada program di atas kita menggunakan sebuah tipe data abstrak yaitu struct dan class yang dimana struct dan kelas itu untuk menampung sebuah tipe data yang berbeda beda dan di tampung oleh kelas maupun struct. setelah di tampung oleh struct dan class kita bisa mencetak data yang sudah ada ataupun yang di inputkan dan di tampung pada struct dan class dengan cara memanggil nama struct atau nama class terlebuh dahulu.
+
 #### Full code Screenshot:
+
 ![Full ss code unguided 1](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/Pertemuan1/assets/fullcode_unguided2.png)
 => Penjelasan Struct
 
@@ -394,6 +398,7 @@ int main()
 Pada kode di atas kita membuat sebuah array dan map pada array kita memiliki 5 data berupa bilangan nama orang dan kita bisa mencetaknya dengan cara memanggil urutan index array yang kita ingginkan dan pada map kita memiliki data nama tempat yang dimana terdapat sebuah key yaitu berupa angka integer dan value berupa string nama tempatnya dan kita bisa mencetaknya dengan cara memanggil key dari value.
 
 #### Full code Screenshot:
+
 ![Full ss code unguided 1](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/Pertemuan1/assets/fullcode_unguided3.png)
 => Penjelasan map
 
