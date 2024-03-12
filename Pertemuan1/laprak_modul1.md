@@ -1,6 +1,6 @@
 # <h1 align="center">Laporan Praktikum Modul Tipe Data</h1>
 
-<h2 align="center">Hamid Sabirin</h2>
+<h2 align="center">Hamid Sabirin-2311102129</h2>
 
 ## Dasar Teori
 
