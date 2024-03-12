@@ -10,22 +10,22 @@ pada tipe data terdapat 3 jenis yaitu :
 
 1. Primitif
    Tipe data bawaan bahasa pemrograman dan bisa langsung digunakan programmer untuk mendeklarasikan variabel contohnya adalah
-   -> Int = bilangan bulat
-   -> Float = bilangan koma atau desimal
-   -> Bool = true or false
-   -> Char = angka, huruf, simbol dan operator logika
+   - Int = bilangan bulat
+   - Float = bilangan koma atau desimal
+   - Bool = true or false
+   - Char = angka, huruf, simbol dan operator logika
 
 2. Abstrak
    Tipe untuk objek yang perilakunya ditentukan oleh satu set nilai dan satu set operasi contoh darit ipe data abstrak adalah :
 
-   -> Struct = digunakan untuk mengelompokkan data dan fungsi
-   -> Class = konsep struktur data yang diperluas
+   - Struct = digunakan untuk mengelompokkan data dan fungsi
+   - Class = konsep struktur data yang diperluas
 
 3. Koleksi
    Tipe data Koleksi adalah tipe data yang terdiri dari beberapa elemen dengan tipe data yang sama, dan tiap elemen memiliki index unik yang dapat diakses secara langsung. contoh tipe data koleksi adalah array dan map.
 
-   -> Array = tipe data yang terdiri dari elemen-elemen yang memiliki tipe data yang sama dan diberi nama tertentu
-   -> Map = berisi pasangan key-value
+   - Array = tipe data yang terdiri dari elemen-elemen yang memiliki tipe data yang sama dan diberi nama tertentu
+   - Map = berisi pasangan key-value
 
 ## Guided
 
