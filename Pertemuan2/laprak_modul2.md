@@ -323,5 +323,7 @@ int main()
 ## Referensi
 
 [1] Wilis Kaswidjanti, Algoritma dan Pemrograman Lanjut, Yogyakarta: Universitas Pembangunan Nasional “Veteran” Yogyakarta , 2024.
+
 [2] Putri, Meidyan P., et al. ALGORITMA DAN STRUKTUR DATA. P.CV WIDINA MEDIA UTAMA, 2022.
+
 [3] Evi Lestari Pratiwi, Konsep Algoritma dan Pemograman, Banjarmasin: Poliban Press 2020
