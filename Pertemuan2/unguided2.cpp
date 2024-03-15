@@ -2,14 +2,18 @@
 using namespace std;
 int main()
 {
-    // Deklarasi array 3 dimensi
-    int arr_129[3][3][3];
+    int jumlah_element_129;
+    cout <<"masukan jumlah element array : ";
+    cin >> jumlah_element_129;
+
+    // Deklarasi array jumlah_element_129 dimensi
+    int arr_129[jumlah_element_129][jumlah_element_129][jumlah_element_129];
     // Input elemen
-    for (int x = 0; x < 3; x++)
+    for (int x = 0; x < jumlah_element_129; x++)
     {
-        for (int y = 0; y < 3; y++)
+        for (int y = 0; y < jumlah_element_129; y++)
         {
-            for (int z = 0; z < 3; z++)
+            for (int z = 0; z < jumlah_element_129; z++)
             {
                 cout << "Input Array[" << x << "][" << y << "][" << z << "] = ";
                 cin >> arr_129[x][y][z];
@@ -18,11 +22,11 @@ int main()
         cout << endl;
     }
     // Output Array
-    for (int x = 0; x < 3; x++)
+    for (int x = 0; x < jumlah_element_129; x++)
     {
-        for (int y = 0; y < 3; y++)
+        for (int y = 0; y < jumlah_element_129; y++)
         {
-            for (int z = 0; z < 3; z++)
+            for (int z = 0; z < jumlah_element_129; z++)
             {
                 cout << "Data Array[" << x << "][" << y << "][" << z<< "] = " << arr_129[x][y][z] << endl;
             }
@@ -30,11 +34,11 @@ int main()
     }
     cout << endl;
     // Menampilkan array
-    for (int x = 0; x < 3; x++)
+    for (int x = 0; x < jumlah_element_129; x++)
     {
-        for (int y = 0; y < 3; y++)
+        for (int y = 0; y < jumlah_element_129; y++)
         {
-            for (int z = 0; z < 3; z++)
+            for (int z = 0; z < jumlah_element_129; z++)
             {
                 cout << arr_129[x][y][z] << ends;
             }
