@@ -334,11 +334,3 @@ int main()
 
     return 0;
 }
-/*
-Program di atas adalah program untuk lingked list non circular yang digunakan untuk menyimpan data berupa nama dan umur mahasiswa. 
-dalam program ini terdapat 6 fungsi yang dapat digunakan, yaitu init_129, tambah_depan_129, hapus_tengah_129, tambah_tengah_129, hapus_belakang_129, dan tampilkan_129.
-fungsi init_129 digunakan untuk memulai list, fungsi tambah_depan_129 digunakan untuk menambahkan data di awal list, fungsi hapus_tengah_129 digunakan untuk menghapus data di tengah list,
-fungsi tambah_tengah_129 digunakan untuk menambahkan data di tengah list, fungsi hapus_belakang_129 digunakan untuk menghapus data di belakang list, 
-fungsi tampilkan_129 digunakan untuk menampilkan data, fungsi fungsi di atas akan di gunakan pada int main yang dimana bisa menambahkan data di depan list, menambahkan data di tengah list, 
-menambahkan data di belakang list, menghapus data di tengah list, menghapus data di belakang list, dan menampilkan data hanya dengan cara memanggil fungsi yang telah di buat dan di ikuti parameter fungsinya
-*/

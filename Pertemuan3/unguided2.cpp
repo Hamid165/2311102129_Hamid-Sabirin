@@ -459,18 +459,3 @@ int main()
 
     return 0;
 }
-/*
-        cout << "1. Tambah Data"<<endl;
-        cout << "2. Hapus Data"<<endl;
-        cout << "3. Update Data"<<endl;
-        cout << "4. Tambah Data Urutan Tertentu"<<endl;
-        cout << "5. Hapus Data Urutan Tertentu"<<endl;
-        cout << "6. Hapus Seluruh Data"<<endl;
-        cout << "7. Tampilkan Data"<<endl;
-        cout << "8. Exit"<<endl;
-        cout << "Pilihan: ";
-
-pada progam di atas adalah program linked list yang digunakan untuk menyimmpoan data skincare nama produk dan harga produk
-pada program tersebut terdapat berbagai fungsi yang terdiri dari menambahkan data, menghapus data, mengupdate data dan menampilkan data. pada menambahkan data kita bisa melalui depan dan urutan tertentu dan juga begitu pada hapus data dan mengupdate data linked list.
-di program tersebut terdapat menu untuk menjalankan fungsi yang sudah kita buat. Fungsi tersebut bisa kita gunakan pada int main dengan cara memanggil fungsi nya dan di ikuti oleh parameter
-*/
