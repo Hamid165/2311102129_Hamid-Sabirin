@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <iomanip>
-#include <vector>
 using namespace std;
 
 // Deklarasi Struct Node
@@ -16,27 +15,27 @@ Node *head;
 Node *tail;
 
 // prosedur init
-void init_129()
+void inti()
 {
     head = NULL;
     tail = NULL;
 }
 
 // fungsi untuk mengecek linked list apakah nilainya null atau bukan
-bool null_129()
+bool null()
 {
     return head == NULL;
 }
 
 // menambahkan data di depan
-void tambah_depan_129(string nama_129, int umur_129)
+void tambahdepan(string nama_129, int umur_129)
 {
     Node *baru = new Node;
     baru->nama_129 = nama_129;
     baru->umur_129 = umur_129;
     baru->next = NULL;
 
-    if (null_129())
+    if (null())
     {
         head = tail = baru;
     }
@@ -48,14 +47,14 @@ void tambah_depan_129(string nama_129, int umur_129)
 }
 
 // menambahkan data di belakang
-void tambah_belakang_129(string nama_129, int umur_129)
+void tambahbelakang(string nama_129, int umur_129)
 {
     Node *baru = new Node;
     baru->nama_129 = nama_129;
     baru->umur_129 = umur_129;
     baru->next = NULL;
 
-    if (null_129())
+    if (null())
     {
         head = tail = baru;
     }
@@ -67,7 +66,7 @@ void tambah_belakang_129(string nama_129, int umur_129)
 }
 
 // menghitung data pada linked list
-int hitung_jumlah_129()
+int hitungjumlah()
 {
     Node *hitung = head;
     int jumlah = 0;
@@ -82,13 +81,13 @@ int hitung_jumlah_129()
 }
 
 // menambahkan data di tengah
-void tambah_tengah_129(string nama_129, int umur_129, int posisi)
+void tambahtengah(string nama_129, int umur_129, int posisi_129)
 {
-    if (posisi < 1 || posisi > hitung_jumlah_129())
+    if (posisi_129 < 1 || posisi_129 > hitungjumlah())
     {
         cout << "Posisi diluar jangkauan" << endl;
     }
-    else if (posisi == 1)
+    else if (posisi_129 == 1)
     {
         cout << "Posisi bukan posisi tengah" << endl;
     }
@@ -100,7 +99,7 @@ void tambah_tengah_129(string nama_129, int umur_129, int posisi)
         Node *bantu = head;
         int nomor = 1;
 
-        while (nomor < posisi - 1)
+        while (nomor < posisi_129 - 1)
         {
             bantu = bantu->next;
             nomor++;
@@ -112,9 +111,9 @@ void tambah_tengah_129(string nama_129, int umur_129, int posisi)
 }
 
 // menghapus data di depan
-void hapus_depan_129()
+void hapusdepan()
 {
-    if (!null_129())
+    if (!null())
     {
         Node *hapus = head;
 
@@ -135,9 +134,9 @@ void hapus_depan_129()
 }
 
 // menghapus data di belakang
-void hapus_belakang_129()
+void hapusdbelakang()
 {
-    if (!null_129())
+    if (!null())
     {
         Node *hapus = tail;
         Node *bantu = head;
@@ -165,13 +164,13 @@ void hapus_belakang_129()
 }
 
 // menghapus data di tengah
-void hapus_tengah_129(int posisi)
+void hapusdtengah(int posisi_129)
 {
-    if (posisi < 1 || posisi > hitung_jumlah_129())
+    if (posisi_129 < 1 || posisi_129 > hitungjumlah())
     {
         cout << "Posisi di luar jangkauan" << endl;
     }
-    else if (posisi == 1)
+    else if (posisi_129 == 1)
     {
         cout << "Posisi bukan posisi tengah" << endl;
     }
@@ -183,14 +182,14 @@ void hapus_tengah_129(int posisi)
         int nomor = 1;
         bantu = head;
 
-        while (nomor <= posisi)
+        while (nomor <= posisi_129)
         {
-            if (nomor == posisi - 1)
+            if (nomor == posisi_129 - 1)
             {
                 bantuan = bantu;
             }
 
-            if (nomor == posisi)
+            if (nomor == posisi_129)
             {
                 hapus = bantu;
             }
@@ -205,9 +204,9 @@ void hapus_tengah_129(int posisi)
 }
 
 // mengubah data di depan
-void ubah_depan_129(string nama_129, int umur_129)
+void ubahdepan(string nama_129, int umur_129)
 {
-    if (!null_129())
+    if (!null())
     {
         head->nama_129 = nama_129;
         head->umur_129 = umur_129;
@@ -219,15 +218,15 @@ void ubah_depan_129(string nama_129, int umur_129)
 }
 
 // mengubah data di tengah
-void ubah_tengah_129(string nama_129, int umur_129, int posisi)
+void ubahtengah(string nama_129, int umur_129, int posisi_129)
 {
-    if (!null_129())
+    if (!null())
     {
-        if (posisi < 1 || posisi > hitung_jumlah_129())
+        if (posisi_129 < 1 || posisi_129 > hitungjumlah())
         {
             cout << "Posisi di luar jangkauan" << endl;
         }
-        else if (posisi == 1)
+        else if (posisi_129 == 1)
         {
             cout << "Posisi bukan posisi tengah" << endl;
         }
@@ -236,7 +235,7 @@ void ubah_tengah_129(string nama_129, int umur_129, int posisi)
             Node *bantu = head;
             int nomor = 1;
 
-            while (nomor < posisi)
+            while (nomor < posisi_129)
             {
                 bantu = bantu->next;
                 nomor++;
@@ -253,9 +252,9 @@ void ubah_tengah_129(string nama_129, int umur_129, int posisi)
 }
 
 // mengubah data di belakang
-void ubah_belakang_129(string nama_129, int umur_129)
+void ubahbelakang(string nama_129, int umur_129)
 {
-    if (!null_129())
+    if (!null())
     {
         tail->nama_129 = nama_129;
         tail->umur_129 = umur_129;
@@ -267,7 +266,7 @@ void ubah_belakang_129(string nama_129, int umur_129)
 }
 
 // menghapus semua data
-void delete_all_129()
+void deletall()
 {
     Node *bantu = head;
     Node *hapus;
@@ -284,21 +283,20 @@ void delete_all_129()
 }
 
 // menampilkan data
-void tampilkan_129()
+void tampilkan()
 {
     Node *bantu = head;
-
-    if (!null_129())
+    if (!null())
     {
-        cout << "|-------------------------|" << endl;
-        cout << "|     NAMA   |    UMUR    |" << endl;
-        cout << "|-------------------------|" << endl;
+        cout << "|---------------------------|" << endl;
+        cout << "|       Nama       |  Umur  |" << endl;
+        cout << "|---------------------------|" << endl;
         while (bantu != NULL)
         {
-            cout << "| " << setw(10) << left << bantu->nama_129 << " | " << setw(10) << left << bantu->umur_129 << " |" << endl;
+            cout << "| " << setw(15) << left << bantu->nama_129 << " | " << setw(7) << left << bantu->umur_129 << " |" << endl;
             bantu = bantu->next;
         }
-        cout << "|-------------------------|" << endl;
+        cout << "|---------------------------|" << endl;
     }
     else
     {
@@ -306,31 +304,161 @@ void tampilkan_129()
     }
 }
 
+// Fungsi untuk menghapus data berdasarkan nama
+void hapusdata(string nama_129)
+{
+    if (!null())
+    {
+        cout << "List masih null!" << endl;
+        return;
+    }
+
+    Node *bantu = head;
+    Node *sebelum = NULL;
+
+    // Mencari node dengan nama yang sesuai
+    while (bantu != NULL && bantu->nama_129 != nama_129)
+    {
+        sebelum = bantu;
+        bantu = bantu->next;
+    }
+
+    // Jika data tidak ditemukan
+    if (bantu == NULL)
+    {
+        cout << "Data tidak ditemukan!" << endl;
+        return;
+    }
+
+    // Jika data ditemukan di head
+    if (sebelum == NULL)
+    {
+        hapusdepan();
+    }
+    else
+    {
+        sebelum->next = bantu->next;
+        delete bantu;
+        cout << "Data dengan nama " << nama_129 << " berhasil dihapus!" << endl;
+    }
+}
+
 int main()
 {
-    // soal a
-    init_129();
-    tambah_depan_129("Karin", 18);
-    tambah_depan_129("Hoshino", 18);
-    tambah_depan_129("Akechi", 20);
-    tambah_depan_129("Yusuke", 19);
-    tambah_depan_129("Michael", 18);
-    tambah_depan_129("Jane", 20);
-    tambah_depan_129("John", 19);
-    tambah_depan_129("Hamid", 19);
-    // tampilkan_129();
-    // soal b
-    hapus_tengah_129(6);
-    // tampilkan_129();
-    // soal c
-    tambah_tengah_129("Futaba", 18, 3);
-    // tampilkan_129();
-    // soal d
-    tambah_depan_129("Igor", 20);
-    tampilkan_129();
-    // soal e dan f
-    ubah_tengah_129("Reyn", 18, 6);
-    tampilkan_129();
+    // Inisialisasi linked list
+    inti();
+    // Tambahkan data awal
+    tambahdepan("Karin", 18);
+    tambahdepan("Hoshino", 18);
+    tambahdepan("Akechi", 20);
+    tambahdepan("Yusuke", 19);
+    tambahdepan("Michael", 18);
+    tambahdepan("Jane", 20);
+    tambahdepan("John", 19);
+    tambahdepan("Hamid", 19);
+
+    // Tampilkan data awal
+    cout << "Data Mahasiswa" << endl;
+    tampilkan();
+    cout << endl;
+
+    // Menu
+    int pilihan;
+    string nama_129;
+    int umur_129;
+    int posisi_129;
+    do
+    {
+        cout << "Data Mahasiswa :" << endl;
+        cout << "1. Tambah Mahasiswa" << endl;
+        cout << "2. Hapus Mahasiswa" << endl;
+        cout << "3. Update Mahasiswa" << endl;
+        cout << "4. Tambah Mahasiswa Urutan Tertentu" << endl;
+        cout << "5. Hapus Mahasiswa Urutan Tertentu" << endl;
+        cout << "6. Hapus Seluruh Data Mahasiswa" << endl;
+        cout << "7. Tampilkan Data Mahasiswa" << endl;
+        cout << "8. Exit" << endl;
+        cout << "Pilihan: ";
+        cin >> pilihan;
+
+        switch (pilihan)
+        {
+        case 1:
+            // Tambah Data
+            cout << "Masukkan Nama: ";
+            cin >> nama_129;
+            cout << "Masukkan Umur: ";
+            cin >> umur_129;
+            tambahdepan(nama_129, umur_129);
+            break;
+        case 2:
+            // Pilihan hapus data
+            int hapusPilihan;
+            cout << "Pilihan Hapus Data:" << endl;
+            cout << "1. Hapus Data dari Depan" << endl;
+            cout << "2. Hapus Data dari Belakang" << endl;
+            cout << "Pilihan: ";
+            cin >> hapusPilihan;
+
+            if (hapusPilihan == 1)
+            {
+                hapusdepan();
+            }
+            else if (hapusPilihan == 2)
+            {
+                hapusdbelakang();
+            }
+            else
+            {
+                cout << "Pilihan tidak valid!" << endl;
+            }
+            break;
+
+        case 3:
+            // Update Data
+            cout << "Masukkan Nama yang Akan Diupdate: ";
+            cin >> nama_129;
+            cout << "Masukkan Umur Baru: ";
+            cin >> umur_129;
+            cout << "masukan posisi : ";
+            cin >> posisi_129;
+            ubahtengah(nama_129, umur_129, posisi_129);
+            break;
+        case 4:
+            // Tambah Data Urutan Tertentu
+            cout << "Masukkan Nama yang Akan Ditambahkan: ";
+            cin >> nama_129;
+            cout << "Masukkan Umur: ";
+            cin >> umur_129;
+            cout << "Masukkan Posisi (indeks) untuk Menambahkan Data: ";
+            cin >> posisi_129;
+            tambahtengah(nama_129, umur_129, posisi_129);
+            break;
+        case 5:
+            // Hapus Data Urutan Tertentu
+            cout << "Masukkan Posisi (indeks) untuk Menghapus Data: ";
+            cin >> posisi_129;
+            hapusdtengah(posisi_129);
+            break;
+        case 6:
+            // Hapus Seluruh Data
+            deletall();
+            break;
+        case 7:
+            // Tampilkan Data
+            cout << "Data Mahasiswa" << endl;
+            tampilkan();
+            cout << endl;
+            break;
+        case 8:
+            // Keluar
+            cout << "Terima kasih!" << endl;
+            break;
+        default:
+            cout << "Pilihan tidak valid!" << endl;
+            break;
+        }
+    } while (pilihan != 8);
 
     return 0;
 }
