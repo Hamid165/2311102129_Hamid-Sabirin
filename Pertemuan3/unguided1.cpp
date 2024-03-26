@@ -355,7 +355,6 @@ int main()
     tambahdepan("Michael", 18);
     tambahdepan("Jane", 20);
     tambahdepan("John", 19);
-    tambahdepan("Hamid", 19);
 
     // Tampilkan data awal
     cout << "Data Mahasiswa" << endl;
