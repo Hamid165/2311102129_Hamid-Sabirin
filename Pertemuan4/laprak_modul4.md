@@ -1743,7 +1743,7 @@ int main()
 
 #### Full code Screenshot:
 
-![Full_ss_code_unguided2](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/Pertemuan3/assets/fullss_unguided2.png)
+![Full_ss_code_unguided2](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/Pertemuan4/assets/fullss_unguided2.png)
 
 ### 3. [Lakukan perintah berikut:]
 
@@ -2877,7 +2877,7 @@ int main()
 
 #### Full code Screenshot:
 
-![Full_ss_code_unguided3](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/Pertemuan3/assets/fullss_unguided3.png)
+![Full_ss_code_unguided3](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/Pertemuan4/assets/fullss_unguided3.png)
 
 ## Kesimpulan
 
