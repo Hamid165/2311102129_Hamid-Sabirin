@@ -359,21 +359,18 @@ void hapusdata(string nama_129)
     Node *bantu = head;
     Node *sebelum = NULL;
 
-    // Mencari node dengan nama yang sesuai
     while (bantu != NULL && bantu->nama_129 != nama_129)
     {
         sebelum = bantu;
         bantu = bantu->next;
     }
 
-    // Jika data tidak ditemukan
     if (bantu == NULL)
     {
         cout << "Data tidak ditemukan!" << endl;
         return;
     }
 
-    // Jika data ditemukan di head
     if (sebelum == NULL)
     {
         hapusdepan();

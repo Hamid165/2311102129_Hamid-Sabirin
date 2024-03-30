@@ -112,11 +112,11 @@ void tambahtengah(string nama_129, string NIM_129, int posisi_129)
     }
 }
 
-// menghapus data di depan
 // Menghapus data di depan dan mengembalikan nama yang dihapus
 string hapusdepan()
 {
-    string nama_hapus = ""; // Menyimpan nama yang dihapus
+    // Menyimpan nama yang dihapus
+    string nama_hapus = "";
 
     if (!null())
     {
@@ -125,12 +125,12 @@ string hapusdepan()
         if (head->next != NULL)
         {
             head = head->next;
-            nama_hapus = hapus->nama_129; // Simpan nama yang dihapus
+            nama_hapus = hapus->nama_129;
             delete hapus;
         }
         else
         {
-            nama_hapus = head->nama_129; // Simpan nama yang dihapus sebelum dihapus
+            nama_hapus = head->nama_129;
             head = tail = NULL;
         }
     }
@@ -138,14 +138,12 @@ string hapusdepan()
     {
         cout << "List null!" << endl;
     }
-
-    return nama_hapus; // Kembalikan nama yang dihapus
+    return nama_hapus; 
 }
-
 // Menghapus data di belakang dan mengembalikan nama yang dihapus
 string hapusdbelakang()
 {
-    string nama_hapus = ""; // Menyimpan nama yang dihapus
+    string nama_hapus = ""; 
 
     if (!null())
     {
@@ -161,12 +159,12 @@ string hapusdbelakang()
 
             tail = bantu;
             tail->next = NULL;
-            nama_hapus = hapus->nama_129; // Simpan nama yang dihapus
+            nama_hapus = hapus->nama_129; 
             delete hapus;
         }
         else
         {
-            nama_hapus = head->nama_129; // Simpan nama yang dihapus sebelum dihapus
+            nama_hapus = head->nama_129; 
             head = tail = NULL;
         }
     }
@@ -175,13 +173,13 @@ string hapusdbelakang()
         cout << "List null!" << endl;
     }
 
-    return nama_hapus; // Kembalikan nama yang dihapus
+    return nama_hapus;
 }
 
 // Menghapus data di tengah dan mengembalikan nama yang dihapus
 string hapusdtengah(int posisi_129)
 {
-    string nama_hapus = ""; // Menyimpan nama yang dihapus
+    string nama_hapus = ""; 
 
     if (posisi_129 < 1 || posisi_129 > hitungjumlah())
     {
@@ -209,7 +207,7 @@ string hapusdtengah(int posisi_129)
             if (nomor == posisi_129)
             {
                 hapus = bantu;
-                nama_hapus = hapus->nama_129; // Simpan nama yang dihapus
+                nama_hapus = hapus->nama_129; 
             }
 
             bantu = bantu->next;
@@ -220,7 +218,7 @@ string hapusdtengah(int posisi_129)
         delete hapus;
     }
 
-    return nama_hapus; // Kembalikan nama yang dihapus
+    return nama_hapus; 
 }
 
 // mengubah data di depan
@@ -273,7 +271,6 @@ void ubahtengah(string nama_129, string nama_baru_129, string NIM_129, int posis
             if (bantu->nama_129 == nama_129)
             {
                 bantu->nama_129 = nama_baru_129;
-                // Convert NIM_129 to string before setting it
                 bantu->NIM_129 = NIM_129;
                 cout << "Data (" << nama_129 << ") telah diganti dengan data (" << nama_baru_129 << ")" << endl;
             }
