@@ -6,19 +6,17 @@
 
 <h2 align="center">HASH TABLE</h2>
 
-- Hash Table adalah struktur data yang terdiri dari array dan fungsi yang bertujuan untuk memetakan nilai kunci unik setiap record (baris) ke nomor posisi record (hash) dalam tabel.
+A. Hash Table adalah struktur data yang terdiri dari array dan fungsi yang bertujuan untuk memetakan nilai kunci unik setiap record (baris) ke nomor posisi record (hash) dalam tabel.
 
-- Keunggulan dari struktur hash table ini adalah waktu aksesnya yang cukup cepat, jika record yang dicari langsung berada pada angka hash lokasi penyimpanannya. Akan tetapi pada kenyataannya sering sekali ditemukan hash table yang recordrecordnya mempunyai angka hash yang sama (bertabrakan).
+B. Keunggulan dari struktur hash table ini adalah waktu aksesnya yang cukup cepat, jika record yang dicari langsung berada pada angka hash lokasi penyimpanannya. Akan tetapi pada kenyataannya sering sekali ditemukan hash table yang recordrecordnya mempunyai angka hash yang sama (bertabrakan).
 
-- Karena pemetaan hash function yang digunakan bukanlah pemetaan satu-satu, (antara dua record yang tidak sama dapat dibangkitkan angka hash yang sama) maka dapat terjadi bentrokan (collision) dalam penempatan suatu data record. Untuk mengatasi hal ini, maka perlu diterapkan kebijakan resolusi bentrokan (collision resolution policy) untuk menentukan lokasi record dalam tabel. Umumnya kebijakan resolusi bentrokan adalah dengan mencari lokasi tabel yang masih kosong pada lokasi setelah lokasi yang berbentrokan.
+C. Karena pemetaan hash function yang digunakan bukanlah pemetaan satu-satu, (antara dua record yang tidak sama dapat dibangkitkan angka hash yang sama) maka dapat terjadi bentrokan (collision) dalam penempatan suatu data record. Untuk mengatasi hal ini, maka perlu diterapkan kebijakan resolusi bentrokan (collision resolution policy) untuk menentukan lokasi record dalam tabel. Umumnya kebijakan resolusi bentrokan adalah dengan mencari lokasi tabel yang masih kosong pada lokasi setelah lokasi yang berbentrokan.
 
-- Penggunaan Hash Table ini sangat cocok digunakan pada aplikasi yang membutuhkan proses pencarian data secara cepat dan efisien. Hal ini karena menggunakan key yang bersifat acak untuk mengakses suatu value yang terdapat pada array.
+D. Penggunaan Hash Table ini sangat cocok digunakan pada aplikasi yang membutuhkan proses pencarian data secara cepat dan efisien. Hal ini karena menggunakan key yang bersifat acak untuk mengakses suatu value yang terdapat pada array.
   Jika key yang digunakan berbeda, maka proses pencarian data akan lebih cepat dan efisien. Sebab, key yang digunakan berbeda dapat memiliki value yang berbeda.
 
-- Fungsi hash adalah fungsi yang menerima masukan sembarang string dengan panjang bebas dan menghasilkan sebuah string dengan panjang yang selalu sama yang biasa disebut dengan hash value
-
+E. Fungsi hash adalah fungsi yang menerima masukan sembarang string dengan panjang bebas dan menghasilkan sebuah string dengan panjang yang selalu sama yang biasa disebut dengan hash value.
 Dalam Hash Table terdapat 3 komponen utama, yaitu:
-
 1. Array Dinamis “table” yang berisikan data yang dapat disimpan.
 2. Fungsi Hash (yang bertugas untuk menghasilkan key dari sebuah input) yang digunakan untuk mengakses data yang terdapat pada array dinamis “table”.
 3. Fungsi Rehashing (yang bertugas untuk mengatasi masalah konflik key yang terjadi ketika terdapat dua atau lebih data yang memiliki key yang sama)
