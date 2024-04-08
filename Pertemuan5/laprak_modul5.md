@@ -550,4 +550,4 @@ Hash Table adalah tipe data yang mempunyai Key dan Value, dan kita dapat mengaks
 
 [1] Rizki Alif Salman Alfarisy, Perbandingan Kinerja Berbagai Algoritma Fungsi Hash pada Algoritma Rabin-Karp, Bandung: Institut Teknologi Bandung, 2019.
 
-[2] Izhar Rahim, Nizirwan Anwar, Agung Mulyo Widodo, Kundang Karsono Juman, Iwan Setiawan, Komparasi Fungsi Hash Md5 Dan Sha256 Dalam Keamanan Gambar Dan Teks, Banten:2 Universitas Pamulang Tangerang Selatan, 2020.
+[2] Izhar Rahim, Nizirwan Anwar, Agung Mulyo Widodo, Kundang Karsono Juman, Iwan Setiawan, Komparasi Fungsi Hash Md5 Dan Sha256 Dalam Keamanan Gambar Dan Teks, Banten: Universitas Pamulang Tangerang Selatan, 2020.
