@@ -106,9 +106,9 @@ public:
     // Fungsi untuk mencetak data mahasiswa dalam bentuk tabel
     void tampilkan_data_129()
     {
-        cout << "|---------------------------------------------|" << endl;
-        cout << "| No.  | NIM       | Nama          | Nilai    |" << endl;
-        cout << "|---------------------------------------------|" << endl;
+        cout << "|----------------------------------------------|" << endl;
+        cout << "| No.  | NIM       | Nama          | Nilai     |" << endl;
+        cout << "|----------------------------------------------|" << endl;
         int no = 1;
 
         for (int i = 0; i < TABLE_SIZE; i++)
