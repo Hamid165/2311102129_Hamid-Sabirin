@@ -99,13 +99,18 @@ void viewQueue()
 }
 int main()
 {
+    // menambahkan data pada queue
     enqueueAntrian("Andi");
     enqueueAntrian("Maya");
+    // menampilkan semua data yang ada pada queue
     viewQueue();
+    // menampilkan jumlah antrian pada queue
     cout << "Jumlah antrian = " << countQueue() << endl;
+    // menghapus data pada antrian queue
     dequeueAntrian();
     viewQueue();
     cout << "Jumlah antrian = " << countQueue() << endl;
+    // menghapus semua data antrian pada queue
     clearQueue();
     viewQueue();
     cout << "Jumlah antrian = " << countQueue() << endl;
