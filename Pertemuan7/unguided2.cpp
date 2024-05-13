@@ -117,8 +117,8 @@ void viewQueue()
 int main()
 {
     // menambahkan antrian pada queue
-    enqueueAntrian("Budi", "12345");
-    enqueueAntrian("Ani", "54321");
+    enqueueAntrian("Hamid", "2311102129");
+    enqueueAntrian("Sabirin", "54321");
     // menampilkan queue
     viewQueue();
     // mengecek jumlah antrian
