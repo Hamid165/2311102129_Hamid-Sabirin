@@ -21,14 +21,13 @@ d. Apabila data sama dengan yang dicari, berarti data telah berhasil di temukan.
 
 2. Binary Search
 
-Pencarian Biner (binary Search) adalah metode pencarian data pada array yang telah terurut, metode ini lebih effisien dari pada metode pencarian linier dimana semua elemen di dalam array diuji satu persatu sampai ditemukan elemen yang diinginkan. Algoritma ini bekerja dengan cara memilih record dengan indeks tengah dari tabel dan membandingkannya dengan record yang hendak dicari. Jika record tersebut lebih rendah  atau lebih tinggi, maka tabel tersebut dibagi dua dan bagian tabel yang bersesuaian akan diproses kembali secara rekursi.
+Pencarian Biner (binary Search) adalah metode pencarian data pada array yang telah terurut, metode ini lebih effisien dari pada metode pencarian linier dimana semua elemen di dalam array diuji satu persatu sampai ditemukan elemen yang diinginkan. Algoritma ini bekerja dengan cara memilih record dengan indeks tengah dari tabel dan membandingkannya dengan record yang hendak dicari. Jika record tersebut lebih rendah atau lebih tinggi, maka tabel tersebut dibagi dua dan bagian tabel yang bersesuaian akan diproses kembali secara rekursi.
 
 a. Pertama pengambilan data dimulai dari posisi 1 sampai dengan posisi akhir (n).
 b. Selanjutnya mencari posisi data yang tengah dengan menggunakan rumus (posisi akhir)/2.
-c. Setelah itu data yang akan dicari dibanndingkan dengan data yangberada ditengah, apakah data 
+c. Setelah itu data yang akan dicari dibanndingkan dengan data yangberada ditengah, apakah data
 d. terseebut sama atau lebih kecil, atau lebih besar.
 e. Seandainya data tersebut lebih besar, maka proses pencarian yang dicarikan dengan posisi awal adalah 6.posisi tengah + 1.7.Jika data sama dengan data yang dicari, berarti data tersebut telah ditemukan.
-
 
 ## Guided
 
@@ -170,7 +169,7 @@ int main()
 
 => Penjelasan program
 
-- Pada program code di atas merupakan code pencarian dengan metode binary search. pada program tersebut terdapat sebuah  data menggunakan sebuah array dan data tersebut tidak ter urut, pada program tersebut terdapat dua fungsi yaitu selection sort dan binary search, pada selection sort tersebut digunakan untuk melakukan pengurutan sebuah data dari yang terkecil ke yang terbesar. setelah data di urutkan maka fungsi binary search terdapat sebuah nilai variable awal tengah dan akhir, ada juga variable kondisi dengan nilai false  selanjutnya terdapat sebuah perulangan untuk mencari sebuah nilai pada data tersebut dengan cara menjumlahkan nilai awal dan akhir lalu dibagi dua, jika data di temukan di tengah maka data akn ditampilkan langsung dan jika data di temukan di awal maka akan di tambah satu dan jika data ditemukan pada akhir maka akn dikurangan dengan angka satu. pada fungsi utama terdapat sebuah perulangan untuk menampilkan data awal yaitu data yang jumlah nya ada 7 akan di tampilkan semua, selanutnya menginputkan nilai cari dan setelah menginputkan maka selanjutnya mengurutkan data menggunakan fungsi selection sort yang telah dibuat dan jika sudah di urutkan makan data tersebut akan di tampilkan menggunakan perulangan dan selanjutnnya menampilkan nilai yang di cari.
+- Pada program code di atas merupakan code pencarian dengan metode binary search. pada program tersebut terdapat sebuah data menggunakan sebuah array dan data tersebut tidak ter urut, pada program tersebut terdapat dua fungsi yaitu selection sort dan binary search, pada selection sort tersebut digunakan untuk melakukan pengurutan sebuah data dari yang terkecil ke yang terbesar. setelah data di urutkan maka fungsi binary search terdapat sebuah nilai variable awal tengah dan akhir, ada juga variable kondisi dengan nilai false selanjutnya terdapat sebuah perulangan untuk mencari sebuah nilai pada data tersebut dengan cara menjumlahkan nilai awal dan akhir lalu dibagi dua, jika data di temukan di tengah maka data akn ditampilkan langsung dan jika data di temukan di awal maka akan di tambah satu dan jika data ditemukan pada akhir maka akn dikurangan dengan angka satu. pada fungsi utama terdapat sebuah perulangan untuk menampilkan data awal yaitu data yang jumlah nya ada 7 akan di tampilkan semua, selanutnya menginputkan nilai cari dan setelah menginputkan maka selanjutnya mengurutkan data menggunakan fungsi selection sort yang telah dibuat dan jika sudah di urutkan makan data tersebut akan di tampilkan menggunakan perulangan dan selanjutnnya menampilkan nilai yang di cari.
 
 ## Unguided
 
@@ -246,7 +245,7 @@ int main()
 
 <h2>Binary Search huruf pada kata</h2>
 
-![soal 1](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/pertemuan8/assets/ssoutput_unguided1.png)
+![soal 1](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/10a3909638f14ce036f04b749602c16af101d689/Pertemuan8/assets/ssoutput_unguided1.png)
 
 => Penjelasan Program
 
@@ -254,7 +253,7 @@ int main()
 
 #### Full code Screenshot:
 
-![Full_ss_code_unguided1](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/pertemuan8/assets/fullss_unguided1.png)
+![Full_ss_code_unguided1](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/10a3909638f14ce036f04b749602c16af101d689/Pertemuan8/assets/fullss_unguided1.png)
 
 ### 2. [Buatlah sebuah program yang dapat menghitung banyaknya huruf vocal dalam sebuah kalimat!]
 
@@ -294,15 +293,15 @@ int main()
 
 <h2>Sequential Search menghitung banyak huruf vokal</h2>
 
-![soal 2](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/pertemuan8/assets/ssoutput_unguided2.png)
+![soal 2](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/10a3909638f14ce036f04b749602c16af101d689/Pertemuan8/assets/ssoutput_unguided2.png)
 
 => Penjelasan Program
 
-- Pada kode di atas merupakan sebuah program untuk mencari semua total huruf vokal yang ada pada sebuah kalimat atau kata. pada code tersebut perlu membuat sebuah variable untuk menampung sebuah kalimat dan jumlah vokal nanti. selanjutnya kita menginputkan sebuah kata kalimat yang dimana  pada kata tersebut akan di cari total huruf vokalnya, dan terdapat sebuah perulangan yang berisikan percabangan dimana berisikan huruf vokal sama dengan huruf yaitu huruf vokal jika nanti ada maka akan menampilkan jumlah dari seluruh huruf vokal pada kalimat yang telah di inputkan.
+- Pada kode di atas merupakan sebuah program untuk mencari semua total huruf vokal yang ada pada sebuah kalimat atau kata. pada code tersebut perlu membuat sebuah variable untuk menampung sebuah kalimat dan jumlah vokal nanti. selanjutnya kita menginputkan sebuah kata kalimat yang dimana pada kata tersebut akan di cari total huruf vokalnya, dan terdapat sebuah perulangan yang berisikan percabangan dimana berisikan huruf vokal sama dengan huruf yaitu huruf vokal jika nanti ada maka akan menampilkan jumlah dari seluruh huruf vokal pada kalimat yang telah di inputkan.
 
 #### Full code Screenshot:
 
-![Full_ss_code_unguided2](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/pertemuan8/assets/fullss_unguided2.png)
+![Full_ss_code_unguided2](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/10a3909638f14ce036f04b749602c16af101d689/Pertemuan8/assets/fullss_unguided2.png)
 
 ### 3. [Diketahui data = 9, 4, 1, 4, 7, 10, 5, 4, 12, 4. Hitunglah berapa banyak angka 4 dengan menggunakan algoritma Sequential Search!]
 
@@ -314,12 +313,12 @@ using namespace std;
 int main()
 {
     // variable untuk data cari true false nilai dan jumlah angka
-    int a = 10; 
+    int a = 10;
     int data_129[a] = {9, 4, 1, 4, 7, 10, 5, 4, 12, 4};
     int cari_129;
     bool ketemu_129 = false;
     int jumlahAngka_129 = 0;
-    
+
     // menampilkan dara awall
     cout << "data = {9, 4, 1, 4, 7, 10, 5, 4, 12, 4}" << endl;
     cout << "Masukkan angka yang ingin Anda cari: ";
@@ -353,22 +352,22 @@ int main()
 
 <h2>Sequential Search menghitung total nilai cari angka pada sebuah data</h2>
 
-![soal 3](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/pertemuan8/assets/ssoutput_unguided2.png)
+![soal 3](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/10a3909638f14ce036f04b749602c16af101d689/Pertemuan8/assets/ssoutput_unguided3.png)
 
 => Penjelasan Program
 
-- Pada program code di atas merupakan sebuah porogram sequential search untuk mencari sebuah nilai angka dengan jumalh total ada berapa angka yang di cari pada sebuah data. pada code di terdapat sebuah sebuah variable yang dimana untuk menampung sebuah data yang nanti kita akan cari  dan variable dengan nilai false dan jumlah angka untuk menampung nantinya, selanjutnya terdapat sebuah perulangan yang dimana untk mencari sebuah nilai yang akan di cari dan disamakn dengan data jika nilai tersebut sama dengan sebuah nilai pada data maka akan di tampung pada variable, jika data tersebut ditemukan maka akan menampilkan nilai tersebut ditemukan sebanyak berapa kali pada sebuah data tersebut.
+- Pada program code di atas merupakan sebuah porogram sequential search untuk mencari sebuah nilai angka dengan jumalh total ada berapa angka yang di cari pada sebuah data. pada code di terdapat sebuah sebuah variable yang dimana untuk menampung sebuah data yang nanti kita akan cari dan variable dengan nilai false dan jumlah angka untuk menampung nantinya, selanjutnya terdapat sebuah perulangan yang dimana untk mencari sebuah nilai yang akan di cari dan disamakn dengan data jika nilai tersebut sama dengan sebuah nilai pada data maka akan di tampung pada variable, jika data tersebut ditemukan maka akan menampilkan nilai tersebut ditemukan sebanyak berapa kali pada sebuah data tersebut.
 
 #### Full code Screenshot:
 
-![Full_ss_code_unguided3](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/pertemuan8/assets/fullss_unguided2.png)
+![Full_ss_code_unguided3](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/10a3909638f14ce036f04b749602c16af101d689/Pertemuan8/assets/fullss_unguided3.png)
 
+## Kesimpulan
 
-## Kesimpulan 
 - Algoритma pencarian adalah suatu algoritma yang digunakan untuk menemukan data atau elemen tertentu pada suatu struktur data. Pencarian dapat dilakukan pada struktur data yang berbeda seperti array, linked list, dan stack. Jika terdapat sebuah data dengan nilai kecil dan tidak terurut maka gunakan lah metode sequential search dan jika terdapat sebuah data yang besar dan terurut maka gunakan lah binary search.
 
-
 ## Referensi
-[1] Anisya Sonita, IMPLEMENTASI ALGORITMA SEQUENTIAL SEARCHING UNTUK PENCARIAN NOMOR SURAT PADA SISTEM ARSIP ELEKTRONIK, Bengkulu :  Universitas Muhammadiyah Bengkulu, 2018.
+
+[1] Anisya Sonita, IMPLEMENTASI ALGORITMA SEQUENTIAL SEARCHING UNTUK PENCARIAN NOMOR SURAT PADA SISTEM ARSIP ELEKTRONIK, Bengkulu : Universitas Muhammadiyah Bengkulu, 2018.
 
 [2] Leonard Umbu Bulu Mone, Penerapan Algoritma Binary Search Pada Sistem Informasi Perpustakaan, Sumatra: Universitas Kristen Wira Wacana Sumba, 2023
