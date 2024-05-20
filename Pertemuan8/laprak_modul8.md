@@ -368,6 +368,6 @@ int main()
 
 ## Referensi
 
-[1] Anisya Sonita, IMPLEMENTASI ALGORITMA SEQUENTIAL SEARCHING UNTUK PENCARIAN NOMOR SURAT PADA SISTEM ARSIP ELEKTRONIK, Bengkulu : Universitas Muhammadiyah Bengkulu, 2018.
+[1] Anisya Sonita, IMPLEMENTASI ALGORITMA SEQUENTIAL SEARCHING UNTUK PENCARIAN NOMOR SURAT PADA SISTEM ARSIP ELEKTRONIK, Bengkulu : Universitas Muhammadiyah Bengkulu, 2019.
 
 [2] Leonard Umbu Bulu Mone, Penerapan Algoritma Binary Search Pada Sistem Informasi Perpustakaan, Sumatra: Universitas Kristen Wira Wacana Sumba, 2023
