@@ -456,6 +456,6 @@ int main()
 
 [1] Khoirudin, Algoritma & Struktur Data dengan Phyton 3, Semarang: Universitas Semarang Press, 2019.
 
-[2] Rizki Muliono, Pemrograman C++ ALGORITMA & STRUKTUR DATA, Medan: UNIVERSITAS MEDAN AREA, 2018.
+[2] Rizki Muliono, Pemrograman C++ ALGORITMA & STRUKTUR DATA, Medan: UNIVERSITAS MEDAN AREA, 2019.
 
 [3] Dr. Hindarto, Ade Eviyanti, ALGORITMA & PEMOGRAMAN MENGGUNAKAN MATLAB, Sidoarjo: UMSIDA Press , 2020.
