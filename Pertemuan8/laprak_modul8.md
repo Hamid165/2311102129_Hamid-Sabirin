@@ -356,7 +356,7 @@ int main()
 
 => Penjelasan Program
 
-- Pada program code di atas merupakan sebuah porogram sequential search untuk mencari sebuah nilai angka dengan jumalh total ada berapa angka yang di cari pada sebuah data. pada code di terdapat sebuah sebuah variable yang dimana untuk menampung sebuah data yang nanti kita akan cari dan variable dengan nilai false dan jumlah angka untuk menampung nantinya, selanjutnya terdapat sebuah perulangan yang dimana untk mencari sebuah nilai yang akan di cari dan disamakn dengan data jika nilai tersebut sama dengan sebuah nilai pada data maka akan di tampung pada variable, jika data tersebut ditemukan maka akan menampilkan nilai tersebut ditemukan sebanyak berapa kali pada sebuah data tersebut.
+- Pada program code di atas merupakan sebuah porogram sequential search untuk mencari sebuah nilai angka dengan jumalh total ada berapa angka yang di cari pada sebuah data. pada code di terdapat sebuah sebuah variable yang dimana untuk menampung sebuah data yang nanti kita akan cari dan variable dengan nilai false dan jumlah angka untuk menampung nantinya, selanjutnya terdapat sebuah perulangan yang dimana untuk mencari sebuah nilai yang akan di cari dan disamakn dengan data jika nilai tersebut sama dengan sebuah nilai pada data maka akan di tampung pada variable, jika data tersebut ditemukan maka akan menampilkan nilai tersebut ditemukan sebanyak berapa kali pada sebuah data tersebut.
 
 #### Full code Screenshot:
 
@@ -364,7 +364,7 @@ int main()
 
 ## Kesimpulan
 
-- Algoритma pencarian adalah suatu algoritma yang digunakan untuk menemukan data atau elemen tertentu pada suatu struktur data. Pencarian dapat dilakukan pada struktur data yang berbeda seperti array, linked list, dan stack. Jika terdapat sebuah data dengan nilai kecil dan tidak terurut maka gunakan lah metode sequential search dan jika terdapat sebuah data yang besar dan terurut maka gunakan lah binary search.
+- Algoritma pencarian adalah suatu algoritma yang digunakan untuk menemukan data atau elemen tertentu pada suatu struktur data. Pencarian dapat dilakukan pada struktur data yang berbeda seperti array, linked list, dan stack. Jika terdapat sebuah data dengan nilai kecil dan tidak terurut maka gunakan lah metode sequential search dan jika terdapat sebuah data yang besar dan terurut maka gunakan lah binary search.
 
 ## Referensi
 
