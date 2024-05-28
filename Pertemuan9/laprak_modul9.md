@@ -4,7 +4,7 @@
 
 ## Dasar Teori
 
-<h2 align="center">GRAPH DAN TREE</h2>  
+<h2 align="center">GRAPH DAN TREE</h2>
 
 A. Tree (Pohon)
 
@@ -1361,6 +1361,8 @@ int main()
 ![soal 2](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/Pertemuan9/assets/unguided1_m.png)
 ![soal 2](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/Pertemuan9/assets/unguided1_n.png)
 ![soal 2](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/Pertemuan9/assets/unguided1_o.png)
+![soal 2](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/Pertemuan9/assets/unguided1_p.png)
+![soal 2](https://github.com/Hamid165/2311102129_Hamid-Sabirin/blob/main/Pertemuan9/assets/unguided1_q.png)
 
 => Penjelasan Program
 

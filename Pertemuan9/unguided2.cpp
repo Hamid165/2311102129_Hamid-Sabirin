@@ -161,6 +161,7 @@ void tampilkanDescendant(Pohon *node)
 {
     if (node == nullptr)
     {
+        cout << "Node tidak ditemukan!" << endl;
         return;
     }
 
@@ -321,6 +322,33 @@ void traversalAndSibling(Pohon *node)
     cout << endl;
 
     sibling(node);
+}
+// Fungsi untuk menampilkan child dari sebuah node
+void tampilkanChild(Pohon *node)
+{
+    if (node == nullptr)
+    {
+        cout << "Node tidak ditemukan!" << endl;
+        return;
+    }
+
+    if (node->left_2311102129 != nullptr)
+    {
+        cout << "Child kiri: " << node->left_2311102129->data_2311102129 << endl;
+    }
+    else
+    {
+        cout << "Child kiri: (tidak punya child kiri)" << endl;
+    }
+
+    if (node->right_2311102129 != nullptr)
+    {
+        cout << "Child kanan: " << node->right_2311102129->data_2311102129 << endl;
+    }
+    else
+    {
+        cout << "Child kanan: (tidak punya child kanan)" << endl;
+    }
 }
 
 // Fungsi untuk menghapus seluruh subtree dari sebuah node
@@ -579,7 +607,8 @@ int main()
         cout << "10. Find Level\n";
         cout << "11. Karateristik\n";
         cout << "12. Detail tree\n";
-        cout << "13. Exit\n";
+        cout << "13. Node child\n";
+        cout << "14. Exit\n";
         cout << "Pilihan: ";
         cin >> pilihan;
 
@@ -643,8 +672,17 @@ int main()
             // Menampilkan descendant dari sebuah node
             cout << "Masukkan data node: ";
             cin >> data;
-            tampilkanDescendant(find(data));
-            cout << endl;
+            selectedNode = find(data);
+            if (selectedNode == nullptr)
+            {
+                cout << "Node tidak ditemukan." << endl;
+            }
+            else
+            {
+                cout << "Descendant dari node " << data << ": ";
+                tampilkanDescendant(selectedNode);
+                cout << endl;
+            }
             break;
 
         case 7:
@@ -696,8 +734,22 @@ int main()
             cout << "Detail tree dari node " << data << " adalah : " << endl;
             find(find(data));
             break;
-
         case 13:
+            // Menampilkan child dari sebuah node
+            cout << "Masukkan data node: ";
+            cin >> data;
+            selectedNode = find(data);
+            if (selectedNode == nullptr)
+            {
+                cout << "Node tidak ditemukan." << endl;
+            }
+            else
+            {
+                tampilkanChild(selectedNode);
+            }
+            break;
+
+        case 14:
             cout << "Keluar dari program.\n";
             break;
 
@@ -705,8 +757,7 @@ int main()
             cout << "Pilihan tidak valid!\n";
             break;
         }
-    } while (pilihan != 13);
+    } while (pilihan != 14);
 
     return 0;
 }
-
