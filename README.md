@@ -1,4 +1,4 @@
-Laporan Praktikum Mata Kuliah Struktur Data
-Nama : Hamid Sabirin
-NIM : 312010102
-Kelas : 11-D
+Laporan Praktikum Mata Kuliah Struktur Data <br>
+Nama : Hamid Sabirin <br>
+NIM : 3120101029 <br>
+Kelas : 11-D<br>
